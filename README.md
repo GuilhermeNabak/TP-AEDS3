@@ -44,7 +44,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 ## 🖥️ Telas do Sistema
 
 1.  **Menu Inicial** 
-  <img width="249" height="203" alt="Captura de tela 2026-04-02 151811" src="https://github.com/user-attachments/assets/f2b50958-48e0-4fca-b32f-1d0becf696d9" />
+ ![Menu Inicial] <img width="249" height="203" alt="Captura de tela 2026-04-02 151811" src="https://github.com/user-attachments/assets/f2b50958-48e0-4fca-b32f-1d0becf696d9" />
 
 
 
