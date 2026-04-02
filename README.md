@@ -16,6 +16,28 @@ Gestão de inscrição é um sistema de console voltado para o gerenciamento de 
 O sistema segue o padrão de arquitetura MVC, separando claramente as responsabilidades entre interface, controle e acesso a dados. A persistência é realizada por meio de arquivos binários, utilizando um CRUD com registros estruturados em bytes. Para garantir eficiência nas operações, são empregados índices em Hash Extensível para acesso direto às entidades e Árvores B+ para gerenciar o relacionamento entre usuários e cursos.
 
 ## ✨ Principais Funcionalidades
+#### Para Usuários
+
+* **Autenticação Segura:** Cadastro e login de usuários utilizando email e senha. As senhas são armazenadas por meio de hash, garantindo maior segurança dos dados.
+* **Gerenciamento de Conta:** Usuários podem visualizar e alterar seus dados pessoais, incluindo nome, email, pergunta e resposta secreta e senha.
+* **Recuperação de Senha:** Caso o usuário esqueça sua senha, o sistema permite redefini-la por meio da validação da pergunta e resposta secreta cadastradas.
+* **Validação de Exclusão:** Um usuário não pode ser removido do sistema caso possua cursos ativos vinculados. Caso possua apenas cursos inativos, estes são removidos juntamente com a conta.
+
+#### Para Cursos
+
+* **CRUD Completo:** Criação, leitura, atualização e exclusão de cursos associados ao usuário logado.
+
+* **Vinculação Automática:** Todo curso criado é automaticamente associado ao usuário ativo no sistema, garantindo o relacionamento 1:N entre usuário e cursos.
+
+* **Estrutura do Curso:** Cada curso possui nome, descrição detalhada, data de início, estado (ativo, encerrado, concluído ou cancelado) e um código compartilhável único.
+
+* **Geração de Código Único:** Cada curso recebe automaticamente um código alfanumérico de 10 caracteres (estilo NanoID), utilizado para compartilhamento externo.
+
+* **Gerenciamento de Estado:** O usuário pode alterar o estado do curso ao longo do tempo, podendo encerrar inscrições, concluir ou cancelar o curso, respeitando as regras de transição definidas pelo sistema.
+
+* **Listagem Organizada:** Os cursos do usuário são exibidos em ordem alfabética, facilitando navegação e seleção no menu.
+
+* **Acesso por Código:** O sistema permite a identificação de cursos por meio do código compartilhável, possibilitando sua divulgação fora do sistema.
 
 ## 🏗️ Estrutura do Projeto
 
