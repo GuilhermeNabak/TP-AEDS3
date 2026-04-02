@@ -45,7 +45,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 1.  **Menu Inicial**
 
-<img width="249" height="203" alt="Captura de tela 2026-04-02 151811" src="https://github.com/user-attachments/assets/59314e7a-1a9d-4abe-ae93-3f8f23185bf2" />
+![Menu Inicial](https://github.com/user-attachments/assets/59314e7a-1a9d-4abe-ae93-3f8f23185bf2)
 
 
 ## ✅ Checklist de Avaliação
