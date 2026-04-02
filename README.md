@@ -43,7 +43,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
-1.  **Menu Inicial**
+1. **Menu Inicial**
 
 ![Menu Inicial](https://github.com/user-attachments/assets/59314e7a-1a9d-4abe-ae93-3f8f23185bf2)
 
