@@ -1,4 +1,4 @@
-# Gestaão de inscrição em cursos livres
+# Gestão de inscrição em cursos livres
 ##Alunos participantes
 * Daniel Bueno Lacerda
 * Guilherme Paiva Nabak
