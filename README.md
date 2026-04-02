@@ -43,6 +43,9 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
+1.    **Menu Inicial**  ![Menu Inicial com opções de login e cadastro]_<img width="249" height="203" alt="image" src="https://github.com/user-attachments/assets/4f0c1364-afaa-4623-bb4b-bbab2bbcb897" />
+
+
 ## ✅ Checklist de Avaliação
 ### TP_1
 
