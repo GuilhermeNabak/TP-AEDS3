@@ -44,7 +44,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
-2. **Cadastro Novo Usuário** <br> ![2](Cadastro%20de%20Novo%20Usuario.png) <br>
+2. **Cadastro Novo Usuário** <br> ![2](Imagens/Cadastro%20de%20Novo%20Usuario.png) <br>
 3. **Login** <br> ![3](Imagens/Tela%20de%20Login.png) <br>
 4. **Menu Principal(Pós-Login)** <br> ![4](Imagens/Menu%20Principal.png) <br>
 5. **Meus Dados** <br> ![5](Imagens/Tela%20meus%20dados.png) <br>
