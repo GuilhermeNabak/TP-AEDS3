@@ -43,7 +43,18 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
-1. **Menu Inicial** <br> ![Menu Inicial](Imagens/Menu%20Inicial.png)
+1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png)
+2. **Cadastro Novo Usuário** <br> ![2](Cadastro%20de%20Novo%20Usuário.png)
+3. **Login** <br> ![3](Imagens/Tela%20de%20Login.png)
+4. **Menu Principal(Pós-Login)** <br> ![4](Imagens/Menu%20Principal(Pós-Login).png)
+5. **Meus Dados** <br> ![5](Imagens/Tela%20meus%20dados.png)
+6. **Meus Cursos** <br> ![6](Imagens/Tela%20meus%20cursos.png)
+7. **Adicionar Novo Curso** <br> ![7](Imagens/Tela%20de%20adicionar%20novo%20curso.png)
+8. **Alterando Dados do Curso** <br> ![8](Imagens/Alterando%20dados%20do%20curso.png)
+9. **Curso Concluído** <br> ![9](Imagens/Concluido%20curso.png)
+10. **Curso Excluído** <br> ![10](Imagens/Curso%20excluido.png)
+11. **Detalhes de Um Curso** <br> ![11](Imagens/Detalhes%20de%20um%20curso%20selecionado.png)
+12. **Encerrando Inscrições** <br> ![12](Imagens/Encerrando%20inscrições.png)
 
 
 ## ✅ Checklist de Avaliação
