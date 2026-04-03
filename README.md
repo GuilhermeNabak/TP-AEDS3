@@ -43,7 +43,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
-1. **Menu Inicial** ![Menu Inicial](Imagens/Menu%20Inicial.png)
+1. **Menu Inicial** <br> ![Menu Inicial](Imagens/Menu%20Inicial.png)
 
 
 ## ✅ Checklist de Avaliação
