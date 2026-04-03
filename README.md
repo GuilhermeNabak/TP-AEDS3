@@ -43,7 +43,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
-1. **Menu Inicial** ![Menu Inicial](Imagens/Menu Inicial.png)
+1. **Menu Inicial** ![Menu Inicial](https://github.com/GuilhermeNabak/TP-AEDS3/tree/main/Imagens)
 
 
 ## ✅ Checklist de Avaliação
