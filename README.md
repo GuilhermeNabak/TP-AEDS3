@@ -1,4 +1,4 @@
-# Gestão de inscrição em cursos livres
+# EntrePares 1.0
 ## Alunos participantes
 * Daniel Bueno Lacerda
 * Guilherme Paiva Nabak
@@ -11,7 +11,7 @@
 <br>
 
 ## 📝 Descrição do Sistema
-Gestão de inscrição é um sistema de console voltado para o gerenciamento de cursos livres ofertados por alunos. Desenvolvido em Java, o projeto permite que usuários se cadastrem, realizem autenticação por email e senha, criem múltiplos cursos e gerenciem suas informações, incluindo descrição, data de início e estado atual. Cada curso pode ser compartilhado externamente por meio de um código alfanumérico único, facilitando sua divulgação.
+EntrePares 1.0 é um sistema de console voltado para o gerenciamento de cursos livres ofertados por alunos. Desenvolvido em Java, o projeto permite que usuários se cadastrem, realizem autenticação por email e senha, criem múltiplos cursos e gerenciem suas informações, incluindo descrição, data de início e estado atual. Cada curso pode ser compartilhado externamente por meio de um código alfanumérico único, facilitando sua divulgação.
 
 O sistema segue o padrão de arquitetura MVC, separando claramente as responsabilidades entre interface, controle e acesso a dados. A persistência é realizada por meio de arquivos binários, utilizando um CRUD com registros estruturados em bytes. Para garantir eficiência nas operações, são empregados índices em Hash Extensível para acesso direto às entidades e Árvores B+ para gerenciar o relacionamento entre usuários e cursos.
 
@@ -43,9 +43,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 ## 🖥️ Telas do Sistema
 
-1. **Menu Inicial**
-
-![Menu Inicial](https://github.com/user-attachments/assets/59314e7a-1a9d-4abe-ae93-3f8f23185bf2)
+1. **Menu Inicial** [](https://github.com/GuilhermeNabak/TP-AEDS3/blob/main/IMAGENS/Menu%20Inicial.png)
 
 
 ## ✅ Checklist de Avaliação
