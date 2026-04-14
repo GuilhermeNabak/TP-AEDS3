@@ -66,7 +66,11 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 * **`Menus`:** Contém classes de navegação de alto nível e utilidades de interface para o console.
     * **`MenuUsuarios.java`**: Atua como o controller principal do sistema de cursos. Gerencia o fluxo inicial de login, a criação de novas contas de professores/alunos e o menu principal pós-autenticação, delegando as ações específicas de curso para os respectivos Controllers.
     * **`ConsoleUtils.java`**: Classe utilitária com métodos estáticos para melhorar a experiência do usuário no console, incluindo funções para limpar o terminal, pausar a execução para leitura e formatar saídas de texto.
-                  
+      
+* **`Estruturas`:** Contém os componentes genéricos e reutilizáveis que formam a base do sistema de persistência e indexação personalizada.
+    * **`HashExtensivel.java`**: Implementação de uma estrutura de Hash Extensível. É utilizada no seu projeto para criar índices indiretos (como o e-mail do usuário ou o código NanoID do curso), permitindo o acesso aos dados em tempo constante, independente do volume de registros.
+    * **`ArvoreBMais.java`**: Implementação de uma Árvore B+. Esta estrutura é a espinha dorsal para organizar os relacionamentos entre as entidades, sendo utilizada especificamente para gerenciar o índice 1:N entre usuários e seus respectivos cursos através de pares de IDs.
+                        
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
