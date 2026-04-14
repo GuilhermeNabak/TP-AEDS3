@@ -70,7 +70,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 > **Os cursos estão vinculados aos usuários usando o idUsuario como chave estrangeira?**
 >
-> 
+> Sim. A classe Curso.java possui o atributo idUsuario, que atua como chave estrangeira, garantindo o relacionamento de integridade entre as entidades no sistema de arquivos.
 
 > **Há uma árvore B+ que registre o relacionamento 1:N entre usuários e cursos?**
 >
