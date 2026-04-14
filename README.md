@@ -58,6 +58,11 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`VisaoCurso.java`**: Responsável pelos menus de gerenciamento de cursos do usuário logado. Exibe a listagem de cursos próprios e solicita os dados (nome, descrição, estado) para criação e atualização
     * **`VisaoBuscaCurso.java`**: Interface dedicada à busca pública de cursos. Permite que qualquer usuário insira um código NanoID de 10 caracteres para visualizar os detalhes de um curso específico e o nome do seu autor.
       
+* **`Controles` (Controller):** Camada de Controle, que orquestra o fluxo da aplicação. Os Controllers respondem às ações do usuário (capturadas pelas Visões) e manipulam os dados através dos arquivos indexados.
+    * **`ControleUsuario.java`**: Gerencia a lógica do menu "Meus Dados", incluindo a criação de novos usuários, a validação de login via Hash Extensível e a confirmação por resposta secreta para operações sensíveis.
+    * **`ControleCurso.java`**: Gerencia a lógica de CRUD (criar, ler, alterar, deletar) dos cursos do professor logado. Ele garante que, ao criar um curso, o vínculo com o usuário seja registrado corretamente na Árvore B+.
+    * **`ControleBuscaCurso.java`**: Gerencia a lógica de busca global por código. Ele utiliza o índice Hash para encontrar o curso pelo NanoID e coordena a exibição dos dados do curso juntamente com as informações do autor.
+            
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
