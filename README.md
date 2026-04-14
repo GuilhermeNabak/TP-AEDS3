@@ -62,7 +62,11 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`ControleUsuario.java`**: Gerencia a lógica do menu "Meus Dados", incluindo a criação de novos usuários, a validação de login via Hash Extensível e a confirmação por resposta secreta para operações sensíveis.
     * **`ControleCurso.java`**: Gerencia a lógica de CRUD (criar, ler, alterar, deletar) dos cursos do professor logado. Ele garante que, ao criar um curso, o vínculo com o usuário seja registrado corretamente na Árvore B+.
     * **`ControleBuscaCurso.java`**: Gerencia a lógica de busca global por código. Ele utiliza o índice Hash para encontrar o curso pelo NanoID e coordena a exibição dos dados do curso juntamente com as informações do autor.
-            
+      
+* **`Menus`:** Contém classes de navegação de alto nível e utilidades de interface para o console.
+    * **`MenuUsuarios.java`**: Atua como o controller principal do sistema de cursos. Gerencia o fluxo inicial de login, a criação de novas contas de professores/alunos e o menu principal pós-autenticação, delegando as ações específicas de curso para os respectivos Controllers.
+    * **`ConsoleUtils.java`**: Classe utilitária com métodos estáticos para melhorar a experiência do usuário no console, incluindo funções para limpar o terminal, pausar a execução para leitura e formatar saídas de texto.
+                  
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
