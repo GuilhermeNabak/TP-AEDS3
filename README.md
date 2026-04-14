@@ -68,9 +68,15 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`ConsoleUtils.java`**: Classe utilitária com métodos estáticos para melhorar a experiência do usuário no console, incluindo funções para limpar o terminal, pausar a execução para leitura e formatar saídas de texto.
       
 * **`Estruturas`:** Contém os componentes genéricos e reutilizáveis que formam a base do sistema de persistência e indexação personalizada.
-    * **`HashExtensivel.java`**: Implementação de uma estrutura de Hash Extensível. É utilizada no seu projeto para criar índices indiretos (como o e-mail do usuário ou o código NanoID do curso), permitindo o acesso aos dados em tempo constante, independente do volume de registros.
-    * **`ArvoreBMais.java`**: Implementação de uma Árvore B+. Esta estrutura é a espinha dorsal para organizar os relacionamentos entre as entidades, sendo utilizada especificamente para gerenciar o índice 1:N entre usuários e seus respectivos cursos através de pares de IDs.
-                        
+    * **`HashExtensivel.java`**: Implementação de *Hash Extensível*.
+    * **`ArvoreBMais.java`**: Implementação de **Árvore B+**.
+      
+* **`Pares`:** Contém classes auxiliares que representam os registros de índices, permitindo o mapeamento entre chaves de busca e endereços ou IDs no arquivo.
+    * **`ParEmailID.java`**: Relaciona e-mail com ID de usuário.
+    * **`ParCodigoCurso.java`**: Relaciona o código compartilhavel (NanoID) com o ID do curso. Permite que a busca global encontre rapidamente o curso correspondente ao código inserido pelo usuário.
+    * **`ParIDEndereco.java`**: Classe base que relaciona um ID (chave primária) com o seu endereço físico (long) no arquivo de dados. É o componente essencial do seu índice direto primário.
+    * **`ParUsuarioCurso.java`**: Relaciona o ID de um usuário com o ID de um curso. É a classe utilizada pela Árvore B+ para implementar o relacionamento 1:N, permitindo listar todos os cursos de um autor específico com alta performance.
+                         
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
