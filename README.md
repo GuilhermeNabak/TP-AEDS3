@@ -76,7 +76,16 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`ParCodigoCurso.java`**: Relaciona o código compartilhavel (NanoID) com o ID do curso. Permite que a busca global encontre rapidamente o curso correspondente ao código inserido pelo usuário.
     * **`ParIDEndereco.java`**: Classe base que relaciona um ID (chave primária) com o seu endereço físico (long) no arquivo de dados. É o componente essencial do seu índice direto primário.
     * **`ParUsuarioCurso.java`**: Relaciona o ID de um usuário com o ID de um curso. É a classe utilizada pela Árvore B+ para implementar o relacionamento 1:N, permitindo listar todos os cursos de um autor específico com alta performance.
-                         
+      
+* **`Registros`:** Define os contratos (interfaces) necessários para que as entidades e registros possam ser gerenciados de forma padronizada pelo sistema de arquivos e pelos índices.
+    * **`Registro.java`**:Interface base para todas as entidades persistentes. Define os métodos obrigatórios para serialização, como a conversão do objeto para um array de bytes e a leitura de dados a partir de um fluxo de bytes.
+    * **`RegistroHashExtensivel.java`**: Interface para registros compatíveis com Hash Extensível.
+    * **`RegistroArvoreBMais.java`**: Interface para registros compatíveis com Árvore B+.
+      
+* **`Main.java`**: Classe de entrada da aplicação, responsável por instanciar o menu inicial e iniciar o programa.
+
+---
+
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
