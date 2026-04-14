@@ -47,6 +47,11 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`Usuario.java`**: Modelo de entidade Usuário, com atributos como ID, nome, e-mail, hash da senha para segurança, além de pergunta e resposta secreta para recuperação de conta.
     * **`Curso.java`**: Modelo de entidade Curso, com atributos como ID, ID do usuário (proprietário), nome, descrição, data de início, estado (ativo/concluído) e um código compartilhável único (NanoID).
 
+* **`Arquivo` (Model/DAO):** Camada responsável pelo acesso direto e gerenciamento dos arquivos de dados, além da orquestração de seus índices.
+    * **`Arquivo.java`**: Classe genérica de baixo nível que implementa o CRUD base para qualquer entidade, gerenciando o lápide (exclusão lógica), o tamanho dos registros e o índice direto primário (ID → Endereço).
+    * **`ArquivoUsuario.java`**: Especialização de Arquivo para gerenciar o arquivo de usuários. Inclui um índice indireto de e-mails (via HashExtensivel) para login eficiente e a regra de negócio que impede a exclusão de usuários que possuam cursos ativos vinculados.
+    * **`ArquivoCurso.java`**:Especialização de Arquivo para gerenciar o arquivo de cursos. Implementa índices secundários: uma Árvore B+ para o relacionamento 1:N (idUsuario → idCurso) e uma Tabela Hash para busca rápida via código compartilhável (NanoID → idCurso).
+    * **`ArquivoNanoID.java`**: Classe utilitária responsável pela geração de códigos únicos e curtos de 10 caracteres, utilizados para permitir que cursos sejam encontrados sem expor IDs sequenciais.
 
 ## 🖥️ Telas do Sistema
 
