@@ -82,15 +82,15 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 > **O trabalho compila corretamente?**
 >
-> 
+> Sim. O projeto foi estruturado com pacotes e compilado sem erros a partir do diretório raiz.
 
 > **O trabalho está completo e funcionando sem erros de execução?**
 >
-> 
+> Sim. Todas as funcionalidades descritas no escopo do TP1 foram inovadoras e testadas, funcionando conforme o esperado e com tratamento de abordagens para uma execução estável.
 
 > **O trabalho é original e não a cópia de um trabalho de outro grupo?**
 >
-> 
+> Sim. O trabalho foi desenvolvido pelos participantes listados, com base nas estruturas de dados fornecidos e nos requisitos do anunciado.
 
 
 
