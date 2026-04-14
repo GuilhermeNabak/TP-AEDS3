@@ -62,7 +62,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 > **Há um CRUD de usuários (que estende a classe ArquivoIndexado, acrescentando Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos conforme necessidade) que funciona corretamente?**
 >
-> 
+> Sim. A classe ArquivoUsuario.java gerencia o CRUD de usuários. Ela utiliza um índice de Hash Extensível (indiceIndiretoEmail) para o e-mail, permitindo que a autenticação (login) seja feita de forma eficiente sem percorrer todo o arquivo de dados.
 
 > **Há um CRUD de cursos (que estende a classe ArquivoIndexado, acrescentando Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos conforme necessidade) que funciona corretamente?**
 >
