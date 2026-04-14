@@ -74,11 +74,11 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 > **Há uma árvore B+ que registre o relacionamento 1:N entre usuários e cursos?**
 >
-> Sim. A classe ArquivoCurso.java utiliza uma ArvoreBMais<ParUsuarioCurso>, que armazena pares (idUsuario, idCurso). Isso permite recuperar instantaneamente a lista de todos os cursos pertencentes a um professor/usuário específico.
+> Sim. A classe ArquivoCurso.java utiliza uma ArvoreBMais<ParUsuarioCurso>, que armazena pares (idUsuario, idCurso). Isso permite recuperar instantaneamente a lista de todos os cursos pertencentes a um usuário específico.
 
 > **Há um CRUD de usuários (que estende a classe ArquivoIndexado, acrescentando Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos conforme necessidade)?**
 >
-> 
+> Sim. A classe ArquivoUsuario.java utiliza uma Tabela Hash Extensível como índice indireto para o e-mail, permitindo buscas e logins rápidos sem percorrer o arquivo principal.
 
 > **O trabalho compila corretamente?**
 >
