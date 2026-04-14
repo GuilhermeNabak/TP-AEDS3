@@ -43,11 +43,9 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 O projeto é organizado em pacotes que separam as responsabilidades, seguindo o padrão Model-View-Controller.
 
-* **`Entidades` (Model):** Representa o núcleo do Modelo, contendo as classes que definem os objetos de negócio do sistema.
-    * **`Usuario.java`**: Modela a entidade Usuário, com atributos como `ID, nome, e-mail, hash da senha, pergunta secreta, resposta secreta, etc.`.
-    * **`Lista.java`**: Modela a entidade Lista, com atributos como `ID, ID do usuário, nome, descrição, código compartilhável, etc.`.
-    * **`Produto.java`**: Modela a entidade Produto, com atributos `ID, GTIN-13, nome, descrição, e um status de ativo/inativo`.
-    * **`ListaProduto.java`**: Entidade de associação para o relacionamento N:N entre `Lista` e `Produto`, com atributos `ID, ID da Lista, ID do Produto, quantidade e observações`.
+* **`Entidades` (Model):** Representa o núcleo do Modelo, contendo as classes que definem os objetos de negócio do sistema e como eles são persistidos em disco.
+    * **`Usuario.java`**: Modelo de entidade Usuário, com atributos como ID, nome, e-mail, hash da senha para segurança, além de pergunta e resposta secreta para recuperação de conta.
+    * **`Curso.java`**: Modelo de entidade Curso, com atributos como ID, ID do usuário (proprietário), nome, descrição, data de início, estado (ativo/concluído) e um código compartilhável único (NanoID).
 
 
 ## 🖥️ Telas do Sistema
