@@ -53,6 +53,11 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
     * **`ArquivoCurso.java`**:Especialização de Arquivo para gerenciar o arquivo de cursos. Implementa índices secundários: uma Árvore B+ para o relacionamento 1:N (idUsuario → idCurso) e uma Tabela Hash para busca rápida via código compartilhável (NanoID → idCurso).
     * **`ArquivoNanoID.java`**: Classe utilitária responsável pela geração de códigos únicos e curtos de 10 caracteres, utilizados para permitir que cursos sejam encontrados sem expor IDs sequenciais.
 
+* **`Views` (View):** Camada de **Visão**, responsável pela interação com o usuário via console.
+    * **`VisaoUsuario.java`**: Gerencia as telas de "Meus Dados", permitindo que o usuário altere seu nome, e-mail ou senha, além de lidar com a interface de cadastro e login.
+    * **`VisaoCurso.java`**: Responsável pelos menus de gerenciamento de cursos do usuário logado. Exibe a listagem de cursos próprios e solicita os dados (nome, descrição, estado) para criação e atualização
+    * **`VisaoBuscaCurso.java`**: Interface dedicada à busca pública de cursos. Permite que qualquer usuário insira um código NanoID de 10 caracteres para visualizar os detalhes de um curso específico e o nome do seu autor.
+      
 ## 🖥️ Telas do Sistema
 
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
