@@ -66,7 +66,7 @@ O sistema segue o padrão de arquitetura MVC, separando claramente as responsabi
 
 > **Há um CRUD de cursos (que estende a classe ArquivoIndexado, acrescentando Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos conforme necessidade) que funciona corretamente?**
 >
-> 
+> Sim. A classe ArquivoCurso.java gerencia o CRUD de cursos. Ela utiliza uma Árvore B+ para organizar os cursos por usuário e uma Tabela Hash Extensível para a busca rápida através do código compartilhável (NanoID).
 
 > **Os cursos estão vinculados aos usuários usando o idUsuario como chave estrangeira?**
 >
