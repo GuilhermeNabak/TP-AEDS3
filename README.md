@@ -88,14 +88,14 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 
 ## 🖥️ Telas do Sistema
 
-### * Login - Início
+###  *Login - Início*
 1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
 2. **Cadastro Novo Usuário** <br> ![2](Imagens/Cadastro%20de%20Novo%20Usuario.png) <br>
 3. **Login** <br> ![3](Imagens/Tela%20de%20Login.png) <br>
 4. **Menu Principal(Pós-Login)** <br> ![4](Imagens/Menu%20Principal.png) <br>
 5. **Meus Dados** <br> ![5](Imagens/Tela%20meus%20dados.png) <br>
 
-### * Área Meus Cursos
+### *Área Meus Cursos*
 1. **Meus Cursos** <br> ![6](Imagens/Tela%20meus%20cursos.png) <br>
 2. **Adicionar Novo Curso** <br> ![7](Imagens/Tela%20de%20adicionar%20novo%20curso.png) <br>
 3. **Gerenciar Inscritos** TP2
@@ -104,7 +104,7 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 6. **Curso Concluído** <br> ![9](Imagens/Concluido%20curso.png) <br>
 7. **Curso Excluído** <br> ![10](Imagens/Curso%20excluido.png) <br>
 
-### * Área Minhas Inscrições
+### *Área Minhas Inscrições*
 1. **Minhas Inscrições**
 2. **Lista de Cursos**
 3. **Informações do curso**
