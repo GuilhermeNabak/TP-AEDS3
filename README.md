@@ -89,7 +89,7 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 ## 🖥️ Telas do Sistema
 
 ###  *Login - Início*
-1. **Menu Inicial** <br> ![1](Imagens/Menu%20Inicial.png) <br>
+1. **Menu Inicial** <br> ![1](Imagens/test.png) <br>
 2. **Cadastro Novo Usuário** <br> ![2](Imagens/Cadastro%20de%20Novo%20Usuario.png) <br>
 3. **Login** <br> ![3](Imagens/Tela%20de%20Login.png) <br>
 4. **Menu Principal(Pós-Login)** <br> ![4](Imagens/Menu%20Principal.png) <br>
