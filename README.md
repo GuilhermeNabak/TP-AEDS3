@@ -105,9 +105,9 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 
 ### *Área Minhas Inscrições*
 1. **Minhas Inscrições** <br> ![12](Imagens/MinhasInscricoes.png) <br>
-2. **Lista de Cursos**
-3. **Informações do curso**
-4. **Gerenciamento da Inscrição**
+2. **Lista de Cursos** <br> ![13](Imagens/ListaCursos.png) <br>
+3. **Informações do curso e Inscrição** <br> ![14](Imagens/InformacaoCurso.png) <br>
+4. **Gerenciamento da Inscrição** <br> ![15](Imagens/GerenciamentoInscricao.png) <br>
 
 
 ## ✅ Checklist de Avaliação
