@@ -149,23 +149,23 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 
 > **Há um CRUD da entidade de associação CursoUsuario (que estende a classe ArquivoIndexado, acrescentando Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos conforme necessidade) que funciona corretamente?**
 >
-> 
+> Sim. Há um CRUD da entidade CursoUsuario funcionando corretamente. Além disso, foram acrescentadas Tabelas Hash Extensíveis e Árvores B+ como índices diretos e indiretos, garantindo acesso eficiente aos dados.
 
 > **A visão de inscrições está corretamente implementada e permite consultas aos cursos em que um usuário está inscrito?**
 >
-> 
+> Sim. A visão de inscrições está corretamente implementada, pois permite consultar de forma eficiente os cursos em que um usuário está inscrito utilizando os índices criados.
 
 > **A visão de cursos funciona corretamente e permite a gestão dos usuários inscritos em um curso?**
 >
-> 
+> Sim. A gestão de cada usuário pode ser feita na area de inscrições.
 
 > **Há uma visualização dos cursos de outras pessoas por meio de um código NanoID?**
 >
-> 
+> Sim. Há uma visualização dos cursos de outras pessoas por meio de um código NanoID, permitindo compartilhar e acessar cursos de forma prática.
 
 > **A integridade do relacionamento entre cursos e usuários está mantida em todas as operações?**
 >
-> 
+> Sim. A integridade é garantida.
 
 > **O trabalho compila corretamente?**
 >
