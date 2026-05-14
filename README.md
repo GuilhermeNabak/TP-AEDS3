@@ -1,4 +1,4 @@
-# EntrePares 1.0
+# EntrePares 2.0
 ## Alunos participantes
 * Daniel Bueno Lacerda
 * Guilherme Paiva Nabak
