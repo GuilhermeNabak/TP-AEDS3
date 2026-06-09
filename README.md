@@ -1,4 +1,4 @@
-# EntrePares 2.0
+# EntrePares 3.0
 ## Alunos participantes
 * Daniel Bueno Lacerda
 * Guilherme Paiva Nabak
@@ -11,7 +11,7 @@
 <br>
 
 ## 📝 Descrição do Sistema
-EntrePares 1.0 é um sistema de console voltado para o gerenciamento de cursos livres ofertados por alunos. Desenvolvido em Java, o projeto permite que usuários se cadastrem, realizem autenticação por email e senha, criem múltiplos cursos e gerenciem suas informações, incluindo descrição, data de início e estado atual. Cada curso pode ser compartilhado externamente por meio de um código alfanumérico único, facilitando sua divulgação.
+EntrePares 3.0 é um sistema de console voltado para o gerenciamento de cursos livres ofertados por alunos. Desenvolvido em Java, o projeto permite que usuários se cadastrem, realizem autenticação por email e senha, criem múltiplos cursos e gerenciem suas informações, incluindo descrição, data de início e estado atual. Cada curso pode ser compartilhado externamente por meio de um código alfanumérico único, facilitando sua divulgação.
 
 O sistema segue o padrão de arquitetura MVC, separando claramente as responsabilidades entre interface, controle e acesso a dados. A persistência é realizada por meio de arquivos binários, utilizando um CRUD com registros estruturados em bytes. Para garantir eficiência nas operações, são empregados índices em Hash Extensível para acesso direto às entidades e Árvores B+ para gerenciar o relacionamento entre usuários e cursos.
 
@@ -108,6 +108,7 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 2. **Lista de Cursos** <br> ![13](Imagens/ListaCursos.png) <br>
 3. **Informações do curso e Inscrição** <br> ![14](Imagens/InformacaoCurso.png) <br>
 4. **Gerenciamento da Inscrição** <br> ![15](Imagens/GerenciamentoInscricao.png) <br>
+5. **Buscar por Palavra-Chave** <br> ![16](Imagens/MeusDados.png) <br>
 
 
 ## ✅ Checklist de Avaliação
@@ -173,11 +174,31 @@ O projeto é organizado em pacotes que separam as responsabilidades, seguindo o 
 
 > **O trabalho está completo e funcionando sem erros de execução?**
 >
-> Sim. Todas as funcionalidades descritas no escopo do TP1 foram inovadoras e testadas, funcionando conforme o esperado e com tratamento de abordagens para uma execução estável.
+> Sim. Todas as funcionalidades descritas no escopo do TP foram inovadoras e testadas, funcionando conforme o esperado e com tratamento de abordagens para uma execução estável.
 
 > **O trabalho é original e não a cópia de um trabalho de outro grupo?**
 >
 > Sim. O trabalho foi desenvolvido pelos participantes listados, com base nas estruturas de dados fornecidos e nos requisitos do anunciado.
 
+### TP_03
 
+> **O índice invertido com os termos dos nomes dos cursos foi criado usando a classe ListaInvertida?**
+>
+> Sim. Foi criada a classe ListaInvertida para realizar a busca por palavras-chave.
+
+> **É possível buscar cursos por palavras no menu de inscrição?**
+>
+> Sim. É possível buscar cursos por qualquer palavra contida em seu título.
+
+> **O trabalho compila corretamente?**
+>
+> Sim. O projeto foi estruturado com pacotes e compilado sem erros a partir do diretório raiz.
+
+> **O trabalho está completo e funcionando sem erros de execução?**
+>
+> Sim. Todas as funcionalidades descritas no escopo do TP foram inovadoras e testadas, funcionando conforme o esperado e com tratamento de abordagens para uma execução estável.
+
+> **O trabalho é original e não a cópia de um trabalho de outro grupo?**
+>
+> Sim. O trabalho foi desenvolvido pelos participantes listados, com base nas estruturas de dados fornecidos e nos requisitos do anunciado.
 
